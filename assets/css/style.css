@@ -257,7 +257,7 @@ label span {
 .box .main .bottom .info-section .item.lang-skill .progress-bar {
   height: 6px;
   border-radius: 5px;
-  width: 62%;
+  width: 59%;
   position: relative;
   background-color: #ccc;
 }
@@ -272,9 +272,15 @@ label span {
   background-color: #5eadc5;
 }
 
+.box .main .bottom .info-section .item.lang-skill .text {
+  width: 35%;
+}
+
 .box .main .bottom .info-section .item.lang-skill .text h4 {
   font-size: 14px;
-  color: #0582a8;
+  color: #000;
+  border-bottom: 1px dashed #636363;
+  padding-bottom: 5px;
 }
 
 .box .main .bottom .info-section .item.lang-skill ul {
@@ -288,9 +294,9 @@ label span {
 }
 
 .box .main .bottom .info-section .item.lang-skill ul li {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  margin-right: 7px;
   background-color: #86daf3a6;
   border-radius: 50%;
 }
