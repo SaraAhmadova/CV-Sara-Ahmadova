@@ -11,6 +11,18 @@ body {
           box-sizing: border-box;
 }
 
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .m-0,
 h1,
 h2,
@@ -65,8 +77,8 @@ label span {
   left: 2px;
   top: 2px;
   background-color: #161515;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #mode {
@@ -147,7 +159,7 @@ label span {
   font-weight: 600;
   font-size: 22px;
   letter-spacing: 2px;
-  padding: .2rem 0rem;
+  padding: 0.2rem 0rem;
 }
 
 .box .main .header .basic-info div {
@@ -242,16 +254,27 @@ label span {
   font-size: 13px;
 }
 
-.box .main .bottom .info-section .item.lang-skill {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.box .main .bottom .info-section .item.lang-skill .progress-bar {
+  height: 6px;
+  border-radius: 5px;
+  width: 62%;
+  position: relative;
+  background-color: #ccc;
+}
+
+.box .main .bottom .info-section .item.lang-skill .progress-bar::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  border-radius: 5px 0 0 5px;
+  width: 65%;
+  background-color: #5eadc5;
+}
+
+.box .main .bottom .info-section .item.lang-skill .text h4 {
+  font-size: 14px;
+  color: #0582a8;
 }
 
 .box .main .bottom .info-section .item.lang-skill ul {
@@ -466,15 +489,6 @@ label span {
   }
   .box .main .bottom .info-section div {
     margin-bottom: 1rem;
-  }
-  .box .main .bottom .lang-skill {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start !important;
-        -ms-flex-align: start !important;
-            align-items: flex-start !important;
   }
   .box .main .bottom .lang-skill ul {
     margin: 0;
