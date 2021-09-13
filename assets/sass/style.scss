@@ -107,7 +107,7 @@ label {
     .header {
       display: flex;
       justify-content: center;
-      padding: 1rem;
+      padding: 1rem 1rem 0;
 
       img {
         width: 120px;
@@ -242,7 +242,7 @@ label {
               h4 {
                 font-size: 14px;
                 color: #000;
-                border-bottom: 1px dashed #636363;
+                // border-bottom: 1px dashed #636363;
                 padding-bottom: 5px;
               }
             }
