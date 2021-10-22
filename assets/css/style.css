@@ -456,6 +456,10 @@ label span {
   color: #464551;
 }
 
+#proj-body a {
+  color: #5bbedc;
+}
+
 @media screen and (max-width: 676px) {
   .box {
     height: auto;
