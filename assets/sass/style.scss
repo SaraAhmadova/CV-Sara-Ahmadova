@@ -496,4 +496,19 @@ label {
       }
     }
   }
+  #proj-body {
+    .item {
+      &.projects {
+        display: flex;
+        flex-direction: column;
+        .front {
+          padding-right: 7px;
+          margin-right: 17px;
+        }
+        .back {
+          margin-right: 17px;
+        }
+      }
+    }
+  }
 }
