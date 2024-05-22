@@ -43,7 +43,7 @@ ul {
 }
 
 a {
-  color: $clr2;
+  color: $clr6;
 }
 
 hr {
@@ -135,10 +135,11 @@ label {
         h4 {
           letter-spacing: 2px;
           font-weight: 400;
-          color: $clr6;
+          color: $clr2;
         }
 
         .title {
+          text-align: center;
           h3 {
             font-weight: 600;
             font-size: 22px;
@@ -153,19 +154,11 @@ label {
           &.info-text {
             display: flex;
             flex-wrap: wrap;
-
+            justify-content: center;
             .text-box {
               display: flex;
               flex-direction: column;
-              &:first-child,
-              &:nth-child(3) {
-                width: 53%;
-              }
-
-              &:nth-child(2),
-              &:last-child {
-                width: 47%;
-              }
+              margin: 5px 10px;
             }
           }
 

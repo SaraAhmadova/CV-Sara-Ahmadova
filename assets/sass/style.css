@@ -48,7 +48,7 @@ ul li {
 }
 
 a {
-  color: #017878;
+  color: #203f9b;
 }
 
 hr {
@@ -125,7 +125,7 @@ label span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #313c4e;
+  background-color: #142e5b;
   padding: 1rem 1rem 0;
   padding: 1rem 1.5rem 1.5rem;
 }
@@ -162,7 +162,11 @@ label span {
 .box .main .header .basic-info h4 {
   letter-spacing: 2px;
   font-weight: 400;
-  color: #449399;
+  color: #7abbff;
+}
+
+.box .main .header .basic-info .title {
+  text-align: center;
 }
 
 .box .main .header .basic-info .title h3 {
@@ -182,6 +186,9 @@ label span {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .box .main .header .basic-info div.info-text .text-box {
@@ -192,14 +199,7 @@ label span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.box .main .header .basic-info div.info-text .text-box:first-child, .box .main .header .basic-info div.info-text .text-box:nth-child(3) {
-  width: 53%;
-}
-
-.box .main .header .basic-info div.info-text .text-box:nth-child(2), .box .main .header .basic-info div.info-text .text-box:last-child {
-  width: 47%;
+  margin: 5px 10px;
 }
 
 .box .main .header .basic-info div span {
@@ -239,8 +239,8 @@ label span {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 500;
-  color: #449399;
-  border-bottom: 2px solid #449399;
+  color: #203f9b;
+  border-bottom: 2px solid #203f9b;
   padding-bottom: 4px;
   margin-bottom: 10px;
 }
@@ -285,7 +285,7 @@ label span {
 }
 
 .box .main .bottom .info-section .item.lang-skill h6 {
-  color: #449399;
+  color: #203f9b;
   font-size: 11px;
   font-style: italic;
 }
@@ -319,7 +319,7 @@ label span {
 }
 
 .box .main .bottom .info-section .item.lang-skill ul li.filled {
-  background-color: #017878;
+  background-color: #7abbff;
 }
 
 .box .main .bottom .info-section .item.skills.progs h5 {
@@ -460,7 +460,7 @@ label span {
 }
 
 .item h4 {
-  color: #017878;
+  color: #7abbff;
 }
 
 .item h5 {
