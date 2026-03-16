@@ -1,4 +1,5 @@
 {
     "livePreview.defaultPreviewPath": "/Users/saraahmadova/Desktop/old-things/CV repo/CV-Sara-Ahmadova/index.html",
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "snyk.advanced.autoSelectOrganization": true
 }
